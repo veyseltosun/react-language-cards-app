@@ -4,8 +4,8 @@ import logo from "../../assets/react.svg"
 
 function Header() {
   return (
-    <div>
-        <img src={logo} alt='react img' />
+    <div className='logo-container'>
+        <img className="react-logo" src={logo} alt='react img' />
     </div>
   )
 }
