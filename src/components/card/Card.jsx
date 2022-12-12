@@ -1,6 +1,6 @@
 import React from 'react';
 import { categories } from '../../helper/data';
-import "./Card.scss"
+import "./Card.css"
 function Card() {
   return (
     <div className='card-container'>
