@@ -14,29 +14,31 @@
 }
 .language-title:hover{
     background-color: rgba(15, 15, 15, 0.3);
+    
 
 }
 .card-container{
     text-align: center;
-    margin: 70px;
+    margin: 10px 10%;
     display:flex;
     width: auto;
+    height: auto;
     flex-direction: row;
     background-color : orange;
     flex-wrap: wrap;
-   border-radius: 3px;
+   border-radius: 5px;
     
     
 }
 .card{
     text-align: center;
-    margin: 10px 10px 25px 70px;
+    margin: 10px 10px 25px 90px;
     padding: 15px;
     width: 35%;
     height: 100%;
     display: block;
-    background-color: antiquewhite;
-    border-radius: 3px ;
+    background-color: rgba(238, 237, 231, 0.3);
+    border-radius: 7px ;
     
     
 }
@@ -48,7 +50,7 @@
     
 .card-logo{
     width: 35%;
-    height: 70px;
+    height: 75px;
     transition: transform .3s ease-out;
 }
 
@@ -64,6 +66,7 @@
     text-decoration: none;
     list-style-type: none;
     text-align: center;
+    
 
 }
 .options-show{
@@ -76,6 +79,8 @@
 
 .show{
     visibility: visible;
+    font-size: large;
+    margin-top: 3px;
 
 }
 .noShow{
